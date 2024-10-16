@@ -1,0 +1,156 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+}
+
+
+.ancho{
+    max-width: 1200px;
+    margin: auto;
+    /* border: 2px red solid; */
+}
+
+header {
+    background-color: #E6E6E6;
+    padding: 20px;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header figure{
+    width: 250px;
+}
+
+header figure img{
+    width: 100%;
+}
+
+header a{
+    text-decoration: none;
+    display: inline-block;
+    background-color: #28567A;
+    padding: 10px;
+    border-radius: 8px;
+    display: none;
+}
+
+.icono_menu{
+    color: white;
+    /* display: none; */
+}
+
+
+
+
+
+
+
+
+
+nav{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+nav a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    border: 3px #28567A solid;
+    color: #28567A;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contenedor1{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    /* margin: 10px; */
+    /* gap: 15px; */
+
+}
+
+.contenedor1 article{
+    /* border: 2px green solid; */
+    padding: 10px;
+    max-width: 50%;
+}
+
+.contenedor1 figure {
+    /* width: 550px; */
+    width: 50%;
+    border: 2px black solid;
+    border-radius: 5px;
+
+    display: none;
+}
+.contenedor1 figure img{
+    width: 100%;
+}
+
+.letra_amarilla{
+    color: #D09813;
+}
+
+.subtitulo{
+    font-weight: bold;
+}
+
+.contenedor1 article a{
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #28567A;
+    display: inline-block;
+
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+footer{
+    background-color: #28567A;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p{
+    color: white;
+}

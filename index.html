@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="ipad.css">
+    <script src="https://kit.fontawesome.com/1a40c108d9.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+    <header class="ancho">
+        <figure>
+            <img src="imagenes/pullrequest-logo.svg" alt="">
+        </figure>
+        <a href="" id="iconomenu" ><i class="icono_menu fa-solid fa-bars"></i></a>
+    </header>
+
+
+
+
+
+    <nav class="ancho" id="cajamenu">
+        <a href="">Inicio</a>
+        <a href="">Empresa</a>
+        <a href="">Servicios</a>
+        <a href="">Clientes</a>
+        <a href="">Ubicación</a>
+        <a href="">Contactanos</a>
+    </nav>
+
+
+
+
+
+
+    <section class="contenedor1 ancho">
+        <article>
+            <h3 class="letra_amarilla">Creacion de paginas web</h3>
+            <h3 class="subtitulo">Curso básico de HTML5 y CSS3</h3>
+            <br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, doloremque minus. Tenetur ullam similique, cupiditate repellat porro necessitatibus quo magni quasi voluptatum non officiis, suscipit quidem. Eligendi cum incidunt adipisci.</p>
+            <br>
+            <a href="" id="btn_mostrar">Ver</a>
+        </article>
+
+        <figure id="fotocodigo">
+            <img src="imagenes/foto_pullrequest.svg" alt="">
+        </figure>
+    </section>
+
+
+
+
+
+    <footer class="ancho">
+        <p>@darwinmendez</p>
+
+    </footer>
+
+
+
+
+
+
+
+    <script>
+        $("#iconomenu").click(function () {
+            $("#cajamenu").slideToggle();
+        });
+
+
+        $("#btn_mostrar").click(
+            function () {
+                $("#fotocodigo").slideToggle();
+            }
+        );
+    </script>
+
+
+
+</body>
+</html>
